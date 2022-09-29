@@ -1,20 +1,5 @@
 [
   {
-    "name": "DASH - Thumbnails in manifest",
-    "os": [
-      "android",
-      "web"
-    ],
-    "source": {
-      "sources": [
-        {
-          "src": "https://dash.akamaized.net/akamai/bbb_30fps/bbb_with_multiple_tiled_thumbnails.mpd",
-          "type": "application/dash+xml"
-        }
-      ]
-    }
-  },
-  {
     "name": "TN DASH",
     "os": [
       "android",
@@ -24,6 +9,21 @@
       "sources": [
         {
           "src": "https://cloud.tv.telenor.se/s2/tnse-od2.telenorcdn.net/tnfbaod/SF/630385d6d10c6961967f5b42/cnx_b1.ism/manifest_trailer.mpd",
+          "type": "application/dash+xml"
+        }
+      ]
+    }
+  },
+  {
+    "name": "DASH - Thumbnails in manifest",
+    "os": [
+      "android",
+      "web"
+    ],
+    "source": {
+      "sources": [
+        {
+          "src": "https://dash.akamaized.net/akamai/bbb_30fps/bbb_with_multiple_tiled_thumbnails.mpd",
           "type": "application/dash+xml"
         }
       ]
